@@ -1,7 +1,30 @@
+#1
 i = 1
-
-while i <= 3:
-    print(i)
+while i <= 20:
+    if i % 2 != 0:
+        print(i)
     i += 1
-else:
-    print("Loop finished successfully")
+
+
+#2
+i = 1
+while i <= 20:
+    print(i)
+    i += 2
+
+
+#3
+i = 1
+while True:
+    if i > 20:
+        break
+    if i % 2 != 0:
+        print(i)
+    i += 1
+
+
+#4
+i = 1
+while i <= 20:
+    print(i, end=" ")
+    i += 2
